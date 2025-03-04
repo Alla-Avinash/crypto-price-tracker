@@ -1,0 +1,64 @@
+Crypto Price Tracker
+A simple cryptocurrency price tracker built using **Next.js** for the frontend and **Docusaurus** for documentation.
+
+---
+
+## Project Structure  
+```
+/crypto-price-tracker
+│── /web-app  (Next.js frontend)
+│── /docs     (Docusaurus documentation)
+│── README.md
+```
+
+---
+
+## 1. Web App (Next.js)  
+### Setup & Installation  
+1. Navigate to the web app folder:  
+   ```sh
+   cd web-app
+   ```
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```
+3. Start the development server:  
+   ```sh
+   npm run dev
+   ```
+4. Open `http://localhost:3000/` in your browser.
+
+### Features  
+- Displays live prices of 5 cryptocurrencies using **CoinGecko API**.
+- **Search bar** to filter cryptocurrencies.
+- **Refresh button** to manually fetch updated prices.
+- Uses **React Query** for efficient data fetching and caching.
+
+---
+
+## 2. Documentation (Docusaurus)  
+### Setup & Installation  
+1. Navigate to the docs folder:  
+   ```sh
+   cd ../docs
+   ```
+2. Install dependencies:  
+   ```sh
+   npm install
+   ```
+3. Start the documentation server:  
+   ```sh
+   npm run start
+   ```
+4. Open `http://localhost:3000/` to view the documentation.
+
+---
+
+## Technologies Used  
+- **Next.js** – For building the web dashboard.
+- **React Query** – For API state management.
+- **CoinGecko API** – For fetching live cryptocurrency prices.
+- **Docusaurus** – For developer documentation.
+
+---
